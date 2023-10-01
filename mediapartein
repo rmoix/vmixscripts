@@ -1,0 +1,8 @@
+API.Function("SetVolumeFade",Input:="COMENTARISTA",Value:="0,500")
+API.Function("SetVolumeFade",Input:="GENERAL",Value:="0,3000")
+Sleep(3000)
+API.Function("SetVolumeFade",Input:="MUSICA",Value:="80,3000")
+API.Function("OverlayInput1Out",Input:="MARCADOR")
+Sleep(1000)
+API.Function("SetText",Input:="MARCADOR DESCANSO",SelectedName:="MSG.Text",Value:="FINAL PRIMERA PARTE")
+API.Function("OverlayInput1In",Input:="MARCADOR DESCANSO")
