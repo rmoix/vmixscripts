@@ -1,3 +1,5 @@
+API.Function("StartRecording")
+API.Function("ReplayStartRecording")
 API.Function("OverlayInputAllOff")
 API.Function("SetText",Input:="MARCADOR",SelectedName:="PARTE.Text",Value:="1P")
 API.Function("SetText",Input:="MARCADOR",SelectedName:="LOCAL.Text",Value:="0")
